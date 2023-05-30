@@ -1,26 +1,15 @@
-/*FILE STRUCTURE RECOMMENDED
-├── examples/           // Example svg file(s) created with the app
-├── lib/                // Folder for classes or functions
-    ├── shapes.js       // Exports `Triangle`, `Circle`, and `Square` classes
-    ├── shapes.test.js  // Jest tests for shapes
-    ├── COLOR.js       // Exports `RED`, `GREEN`, `BLUE`, `YELLOW` classes
-    ├── COLOR.test.js  // Jest tests for COLOR
-    ├── TEXT.js       // Exports `TEXT` class
-    ├── TEXT.test.js  // Jest tests for TEXT
-    
-├── .gitignore          // Indicates which folders and files Git should ignore
-├── index.js            // Runs the application using imports from lib/
-├── package.json
-└── README.md           // App description, link to video, setup and usage instructions   
-*/        
+const CLI = require("./Assets/lib/cli");
+
+new CLI().run();
 
 
-//INSTALLATION
+//INSTALLATIONS
 //npm install inquirer
 //npm install chalk
 
 const inquirer = require('inquirer');
 const chalk = require('chalk');
+const path = require('path');
 
 console.log(chalk.green('Logo saved as ./output/logo.svg'));
 
