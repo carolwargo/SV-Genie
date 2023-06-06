@@ -1,3 +1,5 @@
+const Text = require('./text');
+
 describe('Text', () => {
   // TEST CASE: should render empty text
   test('should render empty text', () => {
@@ -5,11 +7,14 @@ describe('Text', () => {
     expect(text.render()).toBe(''); // EXPECT the rendered text to be an empty string
   });
 
+  
   // TEST CASE: should render provided text
   test('should render provided text', () => {
     const text = new Text('Hello, world!'); // CREATE a new Text object with provided content
     expect(text.render()).toBe('Hello, world!'); // EXPECT the rendered text to be the same as the provided content
   });
+  
+
 
   // TEST CASE: should set content correctly
   test('should set content correctly', () => {
