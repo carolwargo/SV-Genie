@@ -1,1 +1,0 @@
-// Exports `RED`, `GREEN`, `BLUE`, `YELLOW` classes
