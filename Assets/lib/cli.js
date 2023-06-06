@@ -1,8 +1,10 @@
-const fs = require('fs');
-const chalk = require('chalk');
-const { Triangle, Circle, Square } = require('./shapes');
-const Text = require('./text');
-const Color = require('./color');
+// IMPORT required modules in  proper order
+const fs = require('fs'); // File system module for reading and writing files
+const inquirer = require('inquirer');// Library for prompting user input
+const chalk = require('chalk'); // Library for styling command-line output
+const { Triangle, Circle, Square } = require('./shapes'); // IMPORT shape classes
+const Text = require('./text'); // IMPORT Text class
+const Color = require('./color'); // IMPORT Color class
 
 // DEFINE CLI class
 class CLI {
@@ -33,7 +35,6 @@ class CLI {
 
   // PROMPT user for input using inquirer
   async promptUser() {
-    const inquirer = await import('inquirer');
     return inquirer.prompt([
       {
         type: 'input',
@@ -62,8 +63,8 @@ class CLI {
 
   // CREATE SVG file using fs module
   createSVGFile(content) {
-    fs.writeFileSync('logo.svg', content);
-    console.log(chalk.green('Generated logo.svg'));
+    fs.writeFileSync('logo.svg', content); // WRITE SVG content to 'logo.svg' file
+    console.log(chalk.green('Generated logo.svg')); // DISPLAY success message in green color
   }
 
   // CREATE shape object based on user input
@@ -81,4 +82,4 @@ class CLI {
   }
 }
 
-module.exports = CLI;
+module.exports = CLI; // EXPORT the CLI class
