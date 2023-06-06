@@ -1,4 +1,4 @@
-const Text = require('../lib/text');
+const Text = require('../lib/text.js');
 
 describe('Text', () => {
   test('should render empty text', () => {
