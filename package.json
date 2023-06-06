@@ -2,7 +2,7 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "fs": "^0.0.1-security",
-    "inquirer": "^8.2.5",
+    "inquirer": "^8.2.4",
     "install": "^0.13.0"
   }
 }
