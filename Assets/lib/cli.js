@@ -1,6 +1,6 @@
 // IMPORT required modules in  proper order
 const fs = require('fs'); // File system module for reading and writing files
-const inquirer = require('inquirer'); // Library for prompting user input
+import inquirer from 'inquirer';// Library for prompting user input
 const chalk = require('chalk'); // Library for styling command-line output
 const { Triangle, Circle, Square } = require('./shapes'); // IMPORT shape classes
 const Text = require('./text'); // IMPORT Text class
