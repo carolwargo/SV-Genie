@@ -60,6 +60,6 @@ npm.jest
 
 Carol Wargo-
 
-[Email](mailto:carolwargo@gmail.com)
+[Email: carolwargo@gmail.com](mailto:carolwargo@gmail.com)
 
-https://github.com/carolwargo
+[github Profile:](https://github.com/carolwargo)
