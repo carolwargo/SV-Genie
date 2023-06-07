@@ -2,10 +2,12 @@
 ### Description
 SV.Genie is a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file using the following User PROMPTS: text, text color, shape, shape color.
 
-```
-Walk through video:
+Walk through video of run:
 [Run.webm](https://github.com/carolwargo/SV-Genie/assets/84477950/2f1526f8-e92b-4211-9efb-d7c87e234701)
-```
+
+Walk through video of tests:
+[Tests.webm](https://github.com/carolwargo/SV-Genie/assets/84477950/9fff1c28-0f15-4503-a24d-541f1cd5aeb9)
+
 ###  Table of Contents
 * [User Story](#user-story)
 * [Installation](#installation)
@@ -14,12 +16,11 @@ Walk through video:
 * [License](#license)
 * [Credits](#credits)
 * [Questions](#questions)
-```
-```
 ### User Story
 AS a freelance web developer
 I WANT to generate a simple logo for my projects
 SO THAT I don't have to pay a graphic designer
+
 ```
 ```
 ### Installation
@@ -39,27 +40,23 @@ THEN, Answer the following User Prompts:
 *  "Enter the shape color (by keyword or hexadecimal number), 
 
 The SVG is generated when Generated logo.svg message is displayed in the command prompt, Code is displayed in logo.svg file, and 300x200 pixel image that matches the User's criteria can be viewed in the browser. 
+
 ```
 ```
 ### Test
 npm.jest
-
-Walk through video of tests:
-[Tests.webm](https://github.com/carolwargo/SV-Genie/assets/84477950/9fff1c28-0f15-4503-a24d-541f1cd5aeb9)
-
 ```
 ```
+
 ### License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-```
-```
+
 ### Credits
  [Jest](https://www.npmjs.com/package/jest) for running the unit tests.  
  [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) for collecting input from the user. 
  
-```
-```
+
 ### Questions
 [![Avatar](https://avatars.githubusercontent.com/u/84477950?v=4)
 
