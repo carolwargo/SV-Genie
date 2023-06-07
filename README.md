@@ -59,5 +59,7 @@ npm.jest
 [![Avatar](https://avatars.githubusercontent.com/u/84477950?v=4)
 
 Carol Wargo-
+
 [Email](mailto:carolwargo@gmail.com)
+
 https://github.com/carolwargo
