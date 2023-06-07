@@ -62,4 +62,4 @@ Carol Wargo-
 
 [Email: carolwargo@gmail.com](mailto:carolwargo@gmail.com)
 
-[github Profile:](https://github.com/carolwargo)
+[github Profile: https://github.com/carolwargo ](https://github.com/carolwargo)
