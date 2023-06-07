@@ -3,7 +3,7 @@
 SV.Genie is a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file using the following User PROMPTS: text, text color, shape, shape color.
 
 Walk through video:
-[Untitled_ Jun 6, 2023 7_54 PM.webm](https://github.com/carolwargo/SV-Genie/assets/84477950/2f1526f8-e92b-4211-9efb-d7c87e234701)
+[Run.webm](https://github.com/carolwargo/SV-Genie/assets/84477950/2f1526f8-e92b-4211-9efb-d7c87e234701)
 
 ```
 ```
@@ -50,7 +50,7 @@ The SVG is generated when Generated logo.svg message is displayed in the command
 npm.jest
 
 Walk through video of tests:
-[Untitled_ Jun 6, 2023 10_49 AM.webm](https://github.com/carolwargo/SV-Genie/assets/84477950/9fff1c28-0f15-4503-a24d-541f1cd5aeb9)
+[Tests.webm](https://github.com/carolwargo/SV-Genie/assets/84477950/9fff1c28-0f15-4503-a24d-541f1cd5aeb9)
 
 ```
 ```
