@@ -7,22 +7,22 @@
     <div id="svg-container"></div>
 
     <script>
-      // Create an SVG element
+      // CREATE an SVG element
       const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
       svg.setAttribute("width", "300");
       svg.setAttribute("height", "200");
 
-      // Create a circle element
+      // CREATE a circle element
       const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
       circle.setAttribute("cx", "150");
       circle.setAttribute("cy", "100");
       circle.setAttribute("r", "80");
       circle.setAttribute("fill", "blue");
 
-      // Append the circle element to the SVG element
+      // APPEND the circle element to the SVG element
       svg.appendChild(circle);
 
-      // Append the SVG element to the container
+      // APPEND the SVG element to the container
       const svgContainer = document.getElementById("svg-container");
       svgContainer.appendChild(svg);
     </script>
