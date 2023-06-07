@@ -77,6 +77,7 @@ https://github.com/carolwargo/10-SVG-Generator/blob/bb9a79f582a4406556133832b351
  [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) for collecting input from the user. 
 
 ### Questions
+
 https://avatars.githubusercontent.com/u/84477950?v=4
 
 Carol Wargo-
